@@ -3,14 +3,24 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Demo of component-name Web Component" />
-		<title>component-name Web Component Demo</title>
+		<meta name="description" content="Demo of duration-property Web Component" />
+		<title>duration-property Web Component Demo</title>
 
-		<script type="module" src="component-name.js"></script>
+		<style>
+			duration-property::after {
+				content: attr(style);
+			}
+		</style>
+
+		<script type="module" src="duration-property.js"></script>
 	</head>
 	<body>
-    		<component-name>
-			<!-- slotted content -->
-		</component-name>
+		<duration-property>
+			<audio controls src="https://darn.es/sounds/daviddarnes-rknight.m4a"></audio>
+		</duration-property>
+		<hr>
+		<duration-property>
+			<audio controls src="https://darn.es/sounds/daviddarnes.m4a"></audio>
+		</duration-property>
 	</body>
 </html>
