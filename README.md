@@ -19,7 +19,7 @@ A Web Component to surface an audio or video's duration as a CSS Custom Property
 This Web Component allows you to:
 
 - Surface the duration of an audio or video elements source duration as a CSS Custom Property (`--duration`)
-- Update the `--duration` custom property if the durarion of the source changes
+- Update the `--duration` custom property if the duration of the source changes
 
 ## Installation
 
