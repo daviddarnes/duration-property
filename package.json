@@ -1,6 +1,6 @@
 {
   "name": "@daviddarnes/duration-property",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Web Component to surface an audio or video's duration as a CSS Custom Property",
   "main": "duration-property.js",
   "scripts": {
