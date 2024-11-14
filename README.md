@@ -2,7 +2,7 @@
 
 A Web Component to surface an audio or video's duration as a CSS Custom Property.
 
-**[Demo](https://daviddarnes.github.io/duration-property/demo.html)**
+**[Demo](https://daviddarnes.github.io/duration-property/demo.html)** | **[Further reading](https://darn.es/duration-property-web-component/)**
 
 ## Examples
 
